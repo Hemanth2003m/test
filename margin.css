@@ -1,0 +1,16 @@
+.box{
+    border: 5px solid ;
+    width: 200px;
+    height: 70px;
+
+    
+    
+    
+}
+#box1{
+    background-color: rebeccapurple;
+    overflow: auto;
+    margin: auto;
+    
+}
+

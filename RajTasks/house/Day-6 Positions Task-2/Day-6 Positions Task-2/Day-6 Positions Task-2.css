@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.inner {
+    height:99svh;
+    width: 100svw;
+    position: relative;
+    background-color: black;
+}
+.header {
+    /* border: 1px solid white; */
+    height: 40%;
+    width: 100%;
+    position: relative;
+}
+.header > img{
+    position: absolute;
+}
+.moon {
+    border: 1px solid white;
+    border-radius: 100%;
+    height: 15%;
+    width: 7%;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 5px 5px white;
+    right: 30%;
+    top: 20%;
+}
+.footer {
+    /* border: 1px solid white; */
+    height: 60%;
+    width: 100%;
+    position: relative;
+}
+.left {
+    /* border: 1px solid white; */
+    height: 99%;
+    width: 60%;
+    position: relative;
+}
+.box1 {
+    border: 1px solid white;
+    height: 60%;
+    width: 40%;
+    background-color: rgb(156, 156, 30);
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+.door {
+    border: 1px solid black;
+    height: 80%;
+    width: 30%;
+    background-color: burlywood;
+    top: 19%;
+    left: 15%;
+    position: absolute;
+}
+.window {
+    border: 1px solid black;
+    height: 30%;
+    width: 30%;
+    position: absolute;
+    background-color: rgb(57, 57, 222);
+    left: 60%;
+    top: 20%;
+}
+.w1 {
+    border: 1px solid black;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    box-sizing: border-box;
+}
+.w2 {
+    border: 1px solid black;
+    height: 50%;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    box-sizing: border-box;
+    
+}
+.w3 {
+    border: 1px solid black;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: 0;
+}
+.w4 {
+    border: 1px solid black;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    left: 50%;
+    top: 50%;
+}
+
+.box2 {
+    border: 1px solid white;
+    height: 20%;
+    width: 50%;
+    position: absolute;
+    background-color: brown;
+    top: 19%;
+    left: 16%;
+}
+.c1 {
+    border: 1px solid white;
+    height: 50%;
+    width: 20%;
+    border-radius: 0;
+    position: absolute;
+    top: 7%;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom-color: transparent;
+
+}
+.c2 {
+    border: 1px solid white;
+    height: 50%;
+    width: 20%;
+    border-radius: 0;
+    position: absolute;
+    bottom: 7%;
+    left: 20%;
+    border-bottom-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    border-top-color: transparent;
+
+}
+.c3 {
+    border: 1px solid white;
+    height: 50%;
+    width: 20%;
+    border-radius: 0;
+    position: absolute;
+    top: 7%;
+    left: 40%;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom-color: transparent;
+
+}
+.c4 {
+    border: 1px solid white;
+    height: 50%;
+    width: 20%;
+    border-radius: 0;
+    position: absolute;
+    bottom: 7%;
+    left: 60%;
+    border-bottom-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    border-top-color: transparent;
+
+}
+.c5 {
+    border: 1px solid white;
+    height: 50%;
+    width: 20%;
+    border-radius: 0;
+    position: absolute;
+    top: 7%;
+    left: 80%;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom-color: transparent;
+
+}
+.box3 {
+    border: 1px solid white;
+    height: 16%;
+    width: 5%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 3%;
+}
+.right {
+    /* border: 1px solid wheat; */
+    height: 99%;
+    width: 40%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.box4 {
+    border: 1px solid black;
+    height: 60%;
+    width: 10%;
+    position: absolute;
+    background-color: burlywood;
+    left: 40%;
+    bottom: 0;
+}
+.circle1 {
+    border: 1px solid black;
+    height: 30%;
+    width: 30%;
+    border-radius: 100%;
+    position: absolute;
+    background-color: green;
+    left: 17%;
+    top: 25%;
+}
+.circle2 {
+    border: 1px solid black;
+    height: 30%;
+    width: 30%;
+    border-radius: 100%;
+    position: absolute;
+    background-color: green;
+    left: 45%;
+    top: 25%;
+
+}
+.circle3 {
+    border: 1px solid black;
+    height: 30%;
+    width: 30%;
+    border-radius: 100%;
+    position: absolute;
+    background-color: green;
+    left: 30%;
+    top: 3%;
+}

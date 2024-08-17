@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+CO:wght@100..400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    height: 100vh;
+    display: flex;
+    background-image: url('Pics/WeddingCard.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    justify-content: center;
+    align-content: center;
+}
+.img {
+    mix-blend-mode: multiply;
+}
+.main {
+    /* border: 2px solid black; */
+    min-width: fit-content;
+    height: 79%;
+    width: 30%;
+    align-self: center;
+}
+.two {
+    color: brown;
+}
+.three {
+    font-family: "Dancing Script", cursive;
+    color: brown;
+    font-weight: 800;
+    font-size: 42px;
+    justify-content: center;
+}
+.four {
+    font-family: 'Tangerine', cursive;
+    color: brown;
+    font-style: bold;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.five {
+    font-family: "Tangerine",cursive;
+    color: brown;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.six {
+    font-family: "Dancing Script", cursive;
+    color: red;
+}
+.seven {
+    font-family: 'Tangerine', cursive;
+    color: brown;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 15px;
+}
+.border {
+    border-top: 1px solid brown;
+    border-bottom: 1px solid brown;
+    font-family: "Dancing Script", cursive;
+    color: brown;
+    font-weight: 800;
+
+
+}
+.eight {
+    display: flex;
+    justify-content: center;
+    column-gap: 13px;
+    margin-top: 0.5rem;
+}
+.date {
+    font-family: "Dancing Script", cursive;
+    color: brown;
+    font-weight: bolder;
+
+}
+.nine {
+    font-family: "Dancing Script", cursive;
+    color: brown;
+    font-weight: bolder;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.ten {
+    font-family: "Dancing Script", cursive;
+    color: brown;
+    font-weight: bolder;
+    margin-right: 1px;
+}
+.eleven {
+    font-family: "Dancing Script", cursive;
+    color: brown;
+    font-weight: bolder;
+    margin-right: 1px;
+}

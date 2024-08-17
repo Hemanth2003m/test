@@ -1,0 +1,21 @@
+body{ 
+    border: 4px solid rgba(228, 15, 228, 0.436);
+     border-radius:20px ;
+     margin: 0%;
+     
+
+}
+h1{
+    border: 4px solid rgb(224, 52, 52);
+    text-shadow: 3px 3px 5px rgb(19, 106, 213);
+    border-radius:20px ;
+    font-family: 'Times New Roman';
+    
+   }
+#box1{
+       width: 200px;
+       height: 200px;
+       background-color: white;
+       box-shadow: 3px 3px 5px;
+   }
+ 

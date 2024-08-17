@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Fill up
+        </title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="intro.css">
+        <form action="index.php" method="post" enctype="multipart/form-data" >
+            <label for="Username">Username:</label>
+            <input style="background-color:red " type=Username" id="Username" required>
+            <br>
+            <label for="Password">Password:</label>
+            <input type="Password" id="Password" required>
+            <br>
+            <label for="email" >email:</label>
+            <input type="email" id="email">
+            <br>
+            <label for="phone">Phone.no</label>
+            <input type="tel" id="phone">
+            <br>
+            <label for="bday">Birthday:</label>
+            <input type="date" id="bday"><br>
+            
+            <label for="title">Title:</label>
+
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." value="Mr." name="title">
+            <label for="Mr.">Miss.</label>
+            <input type="radio" id="Miss" value="Miss" name="title">
+            <label for="Mr.">phd</label>
+            <input type="radio" id="phd" value="phd" name="title"><br>
+            <label for="payment" >Payment:</label>
+            <select>
+                <option value="Visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Rupay">Rupay</option>
+            </select><br>
+            <label for="subscribe">Subscribe</label>
+            <input type="checkbox" id="subscribe"><br>
+
+            <label for="comment">Comment</label>
+            <textarea  id="comment" rows="3" columns="2"></textarea><br>
+            <label for="file">Share file:</label>
+            <input type="file" id="file">
+            
+            
+
+
+
+                <br>
+                <input type="reset">
+                <br>
+            <input type="submit">
+        </form>
+    </body>
+
+</html>

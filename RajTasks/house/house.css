@@ -1,0 +1,169 @@
+.parent{
+    height: 100vh;
+    width: 100wh;
+    background-color: black;
+    position: relative;
+}
+.chimney{
+    height: 80px;
+    width: 33px;
+    background-color: white;
+    position: absolute;
+    top: 35%;
+    left:40% ;
+}
+.wall{
+    width: 30%;
+    height: 40%;
+    border: 1px solid black;
+    background-color: burlywood;
+    position: absolute;
+    left: 14%;
+    top:59% ;
+
+}
+.roof{
+    width: 35%;
+    height: 12%;
+    border: 1px solid black;
+    background-color: rgb(139, 82, 8);
+    position: absolute;
+    left: 12%;
+    top:47% ;
+}
+.door{
+    width: 25%;
+    height: 55%;
+    border: 1px solid black;
+    background-color: rgb(126, 105, 78);
+    position: absolute;
+    left: 11%;
+    top: 45% ;
+}
+.win1{
+    width: 10%;
+    height: 10%;
+    border: 1px solid black;
+    background-color: rgb(98, 160, 222);
+    position: absolute;
+    left: 50%;
+    top: 45% ;
+}
+.win2{
+    width: 10%;
+    height: 10%;
+    border: 1px solid black;
+    background-color: rgb(98, 160, 222);
+    position: absolute;
+    left: 60%;
+    top: 45% ;
+}
+.win3{
+    width: 10%;
+    height: 10%;
+    border: 1px solid black;
+    background-color: rgb(98, 160, 222);
+    position: absolute;
+    left: 50%;
+    top: 55% ;
+}
+.win4{
+    width: 10%;
+    height: 10%;
+    border: 1px solid black;
+    background-color: rgb(98, 160, 222);
+    position: absolute;
+    left: 60%;
+    top: 55% ;
+}
+.tree{
+    height: 40%;
+    width: 3%;
+    border: 1px solid black;
+    background-color: rgb(235, 176, 99);
+    position: absolute;
+    left: 70%;
+    bottom: 1%;
+}
+.cir1{
+   height: 110px;
+   width: 90px;
+   border-radius: 100%;
+   
+   background-color: green;
+   position: absolute;
+    left: 65%;
+    bottom: 36%;
+}
+.cir2{
+    height: 110px;
+    width: 90px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-color: green;
+    position: absolute;
+     left: 71%;
+     bottom: 36%;
+ }
+ .cir3{
+    height: 110px;
+   width: 90px;
+    border-radius: 100%;
+   
+    background-color: green;
+    position: absolute;
+     left: 68%;
+     bottom: 44%;
+ }
+ .stars{
+    display: flex;
+    position: absolute;
+    left: 0%;
+   
+   
+    gap:2em ;
+ }
+ .stars2{
+    display: flex;
+    position: absolute;
+    
+    top: 4%;
+   
+    
+    gap:2em ;
+ }
+ .stars3{
+    display: flex;
+    position: absolute;
+    top: 8%;
+    left: 2%;
+   
+   
+    gap:2em ;
+ }
+ 
+
+ .star{
+    height: 19px;
+    width: 19px;
+    
+    background-color: white;
+     
+ }
+ 
+ .sun{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px 3px  white;
+    
+    background-color:aliceblue;
+    position: absolute;
+     left: 71%;
+     bottom: 70%;
+
+ }
+ 
+
+
+
